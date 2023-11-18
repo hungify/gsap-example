@@ -1,0 +1,40 @@
+.wrapper {
+  height: 100%;
+  width: 100%;
+  background: #1d1d1d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.expander {
+  width: 50px;
+  height: 40vh;
+  border-radius: 25px;
+  background: black;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.close {
+  font-size: 18px;
+  line-height: 40px;
+  transform: translate(155px, 5px);
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 1px 1px 4px #333;
+}
+
+h1 {
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  font-weight: 400;
+  color: #ededed;
+}
